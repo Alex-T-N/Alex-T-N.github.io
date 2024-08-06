@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
+  <meta name="robots" content="index, follow">
+  <!-- title -->
+  
+    
+  <title>20240725 图形结构 - Notes</title>
+    
+  
+  
+  <!-- open graph -->
+  <meta name="description" content="Here&#39;s something encrypted, password is required to continue reading.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="20240725 图形结构">
+<meta property="og:url" content="http://example.com/2024/07/24/20240725/index.html">
+<meta property="og:site_name" content="Notes">
+<meta property="og:description" content="Here&#39;s something encrypted, password is required to continue reading.">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-07-24T11:28:52.000Z">
+<meta property="article:modified_time" content="2024-07-24T11:47:28.706Z">
+<meta property="article:author" content="化外方士">
+<meta name="twitter:card" content="summary">
+  <!-- canonical -->
+  
+  <link rel="canonical" href="http://example.com/2024/07/24/20240725/">
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/img/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+  <!-- CSS -->
+  
+<link rel="stylesheet" href="/css/reset.css">
+
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+<link rel="stylesheet" href="/css/markdown.css">
+
+  
+<link rel="stylesheet" href="/css/fonts.css">
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+    <body>
+        <div class="paper">
+            <div class="paper-main">
+                
+                    <div class="post-header">
+    <a class="logo" href="/">Notes</a>
+    <!-- <div class="logo"><a href="/" title="Len"><img src="/img/logo.svg" alt="Len" aria-label="logo" height="20"></a></div> -->
+        <ul class="nav">
+            
+            <li><a href="/">Home</a></li>
+            
+            <li><a href="/archives">Archives</a></li>
+            
+        </ul>
+
+
+    </a>
+</div>
+
+                
+                <div class="post-main">
+    
+        <div class="post-main-title">
+            20240725 图形结构
+        </div>
+        <div class="post-meta">
+            2024-07-24 ｜ 
+            
+        </div>
+        <!-- 圆角分类 -->
+        <!-- <div class="tags"> -->
+            <!--  -->
+        <!-- </div> -->
+        <div class="post-md">
+            <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="586b9e58364435e2852e67b485d688e41fcaf54009e0ca14af51f748abdb4a0e">d7e284ce31b69fc89742012cc772daee12baed8d9eed7c3204f58126916afa62564edb94a7032a716a08b405f0863da3870ceafd77e13659ef899f8eac63b68aa8e41aa42947bb929c147cd8aac0eabe7d8131de63e2f725524c8ba51b80a94dae5e507ebe89b5d7191616b950a952f60289f91185336d6a4998532b0b1896c319b281a1323321bd0ed05835d07ba8cb9fa01841bf884d3cbc3c3e5eae324e172711b57a4d36a2fa4e9768bbaa1ff978eab03a6fc5f042410829c2569ccf160a788eadf9235c3e108557d79ac9d6362c3acafc28152048a579ca7b1a25f1cd02fadfaf49ee61e7f596e80915c767ed30301e7a93e1d196a044b312aa5cdf25601ac67d716f6cfdae29ce9b88ec375ca3afd793265ca23288332a645d1462bb060330a1807d1604744ca666c1ca39416f7b0d9528cf78cc2c3d479a1c0d470c9968eb9ee6d318f2ef3687074ae8af27eaa83c160161a6527e07675209addba1c1379a77e2c16240b5d14aba535dac76247918dbc63998e1e178d3763c80ca080767572687e0ff9df4cfe1897b885d82154a2552b6cefe11088025778d4246329ba576c23ed4fdc0e1b5358e417ae46faddf4286e3e9dcbbaa3c8a4aff4a56121fe0fdecc713539644c60d67ef22399d2f3c8f6ef4b691b6a0b017a55ffc5e82557082962f81c7157b6e8bfa9e9b67cbbab76d1908c732f104d9e74e676136258cd80e3489e61b4652cad74301a3cabe8b9196d01afdc8ee415eb7cd6233a64a0deae74166ca25b8452894f32a9936c7f5160a7e529263af50a25a18ecf65428187256ea7e11119bb518cac1e252890e87b32c9a9c0bb2a9670e5f03126516dfe4800ce54950e4267a5df4d137f52762f414d3f6fc9a5596cdbf8982518580921964c0bba9160af37e8dee2d043b4be74e4ecd27de454b0a4afdc8d83a73b87041abc0d65327e32a9a4499fa8634f299a8628032440ba9c8f34972753711aa08ffef817c9842c82bfc6d312731a43373ce34ec9ef18cae72427a69d1a2fddf7def32176dd8e377fa0c346545968f570fef8800bf3b28802e3d1d518ced3281ab62fc466f2b13606407e39f8e367009adbcfa8ddb4ebb5ee0b403a55251433d0e5e276b118bd312f5172639e51fb8a3cea424ca3d96092441332d0848a2cb2db9557d7087bc493e1f57809b2ce60c74cfb550ac02fa61d448b49b9a5a8a5e7fc2c2eb3c9bdc515de0102c9cc207cb926dd760364556248e4498d4dd525b906c7b0c0e4b3139b7fddce06c23aef38304a76e7df5d99110c54d686f01445275386b2850bec2804a2a031f231b6aca83eb15556b80d453268e3c27fc3c5f086ca69ce601eb4a699d1074c81e7a55c75975c427513a7ed6eb96d1c057147417892014e0ffed6dd6d9e4a0e8ee89f0170065bf10f519b0a6b09a47f6f040651734cc157ce14da65081c6b7957cf8f3a893378fc8eee6517d78d77f13b6981e9445e3ace6390279b83aedf998157452031e06aa154e2fef4948595a0ba7ea75241461b548eb8b591e721c08d2610c7e8ec2d7666fc1bea54920ed3c5b13d34937ba9289f5619da706e24313b28eca391d5769456274ef0d51838e34c8bc43da9b8accfbe018066cffb5a3e0e380343048f04778eebbcdd5d8897eddddf8a2d4945dc9b470ad58a68a645277a6993603e62801c451031b158096c2fbd8c6324c3588464bdf351eb583b7baf183aeeb3159c547a173ce99c551681762383b4003c5682d44f0fb35e751c33fe52cee4a21a3c3220852bfea9a6e55bf19337846b7f53a60a5035a885b527dfc56d61fe0c9bdf5fc30958e0546c7aa66f0d3e7206371880e72adb8265436a57ac716a12bfbb0c31f71169bf23c19971d418ac0b95c7120fe23c524e0047a1cd185e4ffb3eca332cecab6931fa0a3c6194d37677decfb918ad540f9b279a04b0ebe8ac240adf0dd6cf6abbc8ed0b87589ca08a6e81108373c0eac074c4a21b6cf8c87b580b0846e11c8820ed4734f085f941923c6801ebe86faba7fab012436903d09daa799120f8fadbe918f64308e377611a6e7d0379d1cd7678bb474b089c4f5c5d55f7a5c6894e8955a916b4497b05813f3296dc4b4b732057f3e1251a6665d52f899e8fc1bc2e73edeba485462d5307a808004401707d03f25ec7b1c9dda0599f9f5defa04828a9145ea6c23dec6b298781c00cf85a70dc1b640c3853eb20fed90797d98f2d350598ffb043abac164794871f715cbf21a8ab702f975a3fa57d7e3a80ea688a281863f9fc31eb8e1a40849c8dc88c8cff74d7cb0ac85f5e486b0e6dbfb97d79b00717955849cb95a757d1b893ed6e0ec0b5bb7515cd55a9ea4cf7f13589c9cba5e9999052b75b392fcd369ad3507a8d1bfbb8e4ae6d04a6cc2ad462450f3d46b583e87a6722c298fa9ad92ad325748297da2cd760cf5ec7c0360fbb5660082a47de77ddb45ffded16f5555bda892fe39cb7432d0b09c12b381ff81e5d581b5864aa39d0606483ee13b1632f668fa448c65f4fa81a583b218a152d35a7f16245175e7c376010331e7eda3897dcd33a2e1257836c68bb2bffbdb1f4dcbdd94e47836d88a8dfde0036fdfdc4bcc1195230f203b225c6096a6d88fefb37dee640b15de16269f26b5675929278f364e12cf8e2997fcbdc054f2ea60a36541a726592bccf2681b496f5abc2b13d19bc12326b6974dc840e2fb96490720f2bb57cc19328099eb63e862acb468e9ba6daad88f81b85074569fed8b9cadf0a5254800f4bb17c6c2f9db9654876d666a5c29d9561afb93b7f49706d2e52903cf7870b756cbba48f8b8447ef040390de4ca1085671399a2615781465b7a348376aad32575712ec565894f7ed7afc2cd7814fccc620847f8473d3c0fa135cba4a4a3790e285980487f69e6fe1ed736dd2b3608544014c20c2aca1d6b2d0a8e86ea84f5aa7735a461df9015002070e32abaf5cdcb9e7e4b029a5eb852ef08e398748b81fe0837fdee75189b0ebfe0e707ffb72528ab9e705317350a90481de1c372f2cc021ac45f4548489f378160e4333ede5d7104577efc2e1e0a35473a654a762bfe4ee4160a32ac8b2b6e0e3fa4f6d03712ec98dec5d31b29ec9a79b382e85df97ead0aae54de1ba3b148f5df0bb71002ee46de92823117b31396335c355fd4fd59a5792c362bdcba65f754c917fe2a3572c2216b436f77ed7d5bd804d7dafbc49a746150d663a08f0a78e1c9b7944f7f07a700e2092a2257cfd196f5b46e2d3bc3c17f68c340c227c0cf4019538d20dd634201bd952bcb71d4f8223143ec17b0ff542a3671fb868403a4a56139a5388be380cd09fa51e2b3e11357a422e4f6adb51d2309fe75887b1f5ec238a2f555c956d637658c27b9e565c250447b36afcad4655dc48f4919cd3f04662e6e4d407c7ca75c231c308590e5bdab2c157aea60933ef4000fb1e1f999fd5e955fba67c4bc90d3459b5d4ab5a7d2b10fdf21f2ac5d274607d32c06e2812e486aaf58aa558231c66b86521479429988ed82b64a89d937f89060d0be18d3ae762bb970814bd6b987c8d79c16c3285c18208818f9b2857c238a6e37a31f9141e3a666a51629f4116d2ecfae41ecd862e3d6fdae363819f2c6872836414560c0480a64666404796b5ed56db069778b9ef5c06b814f6cce199b9a6c6c4096fcc7e672f56bb57897dbd1f266fb</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">
+        </div>
+    
+<!-- tags -->
+
+</div>
+                <div class="footer">
+    <span>Copyright © <script>document.write(new Date().getFullYear())</script> Notes</span>
+    <span>Powered by <a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a> with <a target="_blank" rel="noopener" href="https:///imzl.com/zenmind">ZenMind</a></span>
+</div>
+
+<link rel="stylesheet" href="/css/a11y-dark.min.css">
+
+
+<script src="/js/highlight.min.js"></script>
+
+
+<script src="/js/highlightjs-line-numbers.js"></script>
+
+<script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
+
+            </div>
+        </div>
+    </body>
+</html>
